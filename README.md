@@ -15,7 +15,7 @@ https://upload.wikimedia.org/wikipedia/commons/4/43/07._Camel_Profile,_near_Silv
 - מונגוליה
 - סין
 
-![Image of a camel](/images/camel.jpeg)
+![Image of a camel](/images/camel.jpg)
 
 אנגלית | עברית
 -------|--------

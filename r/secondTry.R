@@ -4,7 +4,7 @@ test <- read.csv("test.csv", stringsAsFactors=FALSE)
 
 train$Survived <- factor(train$Survived)
 set.seed(1)
-fit <- train(Survived~Pclass + Sex + SibSp + Embarked + Parch + Fare, data=train,method="rf")
+fit <- train(Survived~Pclass + Sex + SibSp + Embarked + Parch + Fare, data=train,method="rf",ntree=2000)
 
 test$Fare <- ifelse(is.na(test$Fare), mean(test$Fare, na.rm = TRUE), test$Fare)
 test$Survived <- predict(fit, newdata = test)
